@@ -4,8 +4,10 @@
         <img id="bigLogo" src="imgs/Logo.svg" draggable="false">
         <div id="search">
             <h1>Google Image Search</h1>
-            <form action="http://www.google.com/search" method="get">
+            <form action="https://www.google.com/search" method="get">
                 <input id="search-bar" type="text" name="q"/>
+                <input type="hidden" name="safe" value="active" />
+                <input type="hidden" name="tbm" value="isch" />
                 <input id="search-button" type="submit" value="Search" />
             </form>
         </div>
